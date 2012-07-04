@@ -1,0 +1,31 @@
+/* 12 grid */
+.grid121 { width: 60px; }
+.grid122 { width: 140px; }
+.grid123 { width: 220px; }
+.grid124 { width: 300px; }
+.grid125 { width: 380px; }
+.grid126 { width: 460px; }
+.grid127 { width: 540px; }
+.grid128 { width: 620px; }
+.grid129 { width: 700px; }
+.grid1210 { width: 780px; }
+.grid1211 { width: 860px; }
+/* 16 grid */
+.grid161 { width: 40px; }
+.grid162 { width: 100px; }
+.grid163 { width: 160px; }
+.grid164 { width: 220px; }
+.grid165 { width: 280px; }
+.grid166 { width: 340px; }
+.grid167 { width: 400px; }
+.grid168 { width: 460px; }
+.grid169 { width: 520px; }
+.grid1610 { width: 580px; }
+.grid1611 { width: 640px; }
+.grid1612 { width: 700px; }
+.grid1613 { width: 760px; }
+.grid1614 { width: 820px; }
+.grid1615 { width: 880px; }
+/* all */
+.gridmax { width: 940px; }
+.container { width: 960px; }

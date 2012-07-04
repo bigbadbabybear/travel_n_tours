@@ -1,0 +1,74 @@
+/* reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+a { text-decoration: underline; }
+ol, ul {
+	list-style: none;
+}
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+body { font-size: 14px; margin: 0 2px 0 2px; }
+h1, h2, h3 { font-size: 1.3em; font-family: sans-serif; }
+div { margin: 10px 0 10px 0; }
+
+/* header */
+#logo h1 { text-align: center; }
+#nav { width: 100%; text-align: center; }
+#nav li { display: inline; }
+#nav a { margin: 0 3px 0 3px; }
+/* end header */
+
+/* main */
+#thumbnail { display: none; }
+.top, .bottom { display: none; }
+.post { border: 1px solid #c9c9c9; padding: 10px; overflow: hidden; }
+.post p { text-indent: 30px; margin: 5px 0 5px 0; }
+p.call-now {
+text-indent: 0 !important; text-align: center;
+text-transform: uppercase; font-weight: bold;
+font-size: 24px;
+}
+#list { margin: 10px 0 10px 0; }
+#list > li { float: left; margin-right: 20px; }
+#list li ul > li { display: inline; margin-right: 10px; }
+/* end main */
+
+/* footer */
+#footer-bot div.container > div > div { text-align: center; }
+/* end footer */
